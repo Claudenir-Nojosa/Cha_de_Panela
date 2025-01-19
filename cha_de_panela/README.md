@@ -1,36 +1,33 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎉 Projeto Chá de Panela
 
-## Getting Started
+Bem-vindo(a) ao projeto **Chá de Panela**! 🫖✨ Este repositório foi criado para facilitar a organização e gestão de presentes para um chá de panela. O objetivo é criar uma aplicação simples e intuitiva que permita aos convidados visualizarem uma lista de itens desejados, escolherem quais presentes irão oferecer e até mesmo acessar links para compra direta.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## ✨ Funcionalidades
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Lista de Presentes**  
+   Uma lista completa de itens sugeridos para o chá de panela, com informações detalhadas sobre cada um, como nome, descrição e quantidade necessária.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2. **Link para Compra Direta**  
+   Cada item da lista terá um link para que o convidado possa acessar e adquirir o presente de forma prática.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. **Seleção de Presentes**  
+   - Os convidados poderão selecionar o item que desejam presentear, marcando-o como reservado.
 
-## Learn More
+4. **Controle de Disponibilidade**  
+   - Os itens marcados como reservados serão atualizados na lista para evitar duplicidade.
+   - Itens com quantidade limitada (ex.: apenas uma unidade) serão automaticamente bloqueados após a seleção.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Tecnologias Utilizadas
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto utiliza as seguintes tecnologias:
 
-## Deploy on Vercel
+- **Frontend:** [Next.js](https://nextjs.org/) 
+- **Backend:** 
+- **Banco de Dados:** [PostgreSQL](https://www.postgresql.org/)
+- **Hospedagem:** [Vercel](https://vercel.com/) 
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
